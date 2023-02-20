@@ -21,7 +21,7 @@ html, body {
 
 .countdown__container {
     position: relative;
-    top: -270px;
+    top: -250px;
 }
 
 .countdown__time {
@@ -77,6 +77,11 @@ html, body {
     font-size: 12px;
     line-height: 17px;
     color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
