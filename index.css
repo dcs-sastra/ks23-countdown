@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #f5f5f5;
+}
+
+.landing {
+    height: 100%;
+    background: url(./assets/BG.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.countdown__container {
+    position: relative;
+    top: -270px;
+}
+
+.countdown__time {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 79.0813px;
+    line-height: 115px;
+    color: #FFFFFF;
+}
+
+.countdown__label {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.3604px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #D9E773;
+}
+
+.countdown__colon {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.9353px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #D9E773;
+    position: relative;
+    top: -100px;
+    left: 80px;
+}
+
+.event__dates {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.footer {
+    position: relative;
+    top: -150px;
+}
+
+.footer p {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .countdown__container {
+        left: -18px;
+    }
+    .countdown__time {
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .countdown__label {
+        font-size: 10px;
+        line-height: 8px;
+    }
+    .countdown__colon {
+        font-size: 20px;
+        line-height: 30px;
+        top: -40px;
+        left: 50px;
+    }
+    .event__dates h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .tv__container img {
+        width: 130%;
+    }
+}
