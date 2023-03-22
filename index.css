@@ -60,14 +60,14 @@ html, body {
     font-family: 'Dela Gothic One';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 38px;
     color: #FFFFFF;
 }
 
 .footer {
     position: relative;
-    top: -150px;
+    top: -220px;
 }
 
 .footer p {
@@ -86,7 +86,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     .countdown__container {
-        left: -18px;
+        left: -16px;
     }
     .countdown__time {
         font-size: 30px;
@@ -109,8 +109,13 @@ html, body {
     .footer p {
         font-size: 10px;
         line-height: 15px;
+        /* margin-top: -25px; */
     }
     .tv__container img {
         width: 130%;
     }
+}
+
+@media screen and (min-width: 600px)  {
+    .mobile-break { display: none; }
 }
